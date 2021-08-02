@@ -1,5 +1,5 @@
 # Udacity_DataEngineering-Data-Pipeline-Airflow
-Create and automate a data pipeline with Airflow for a music streaming company
+Create and automate a data pipeline with Apache Airflow for a music streaming company
 
 ## The Data
 Sparkify, a startup has launhced a music streaming app. Their focus is to provide/host a collection of songs most widely streamed by users. And to do that, they need to find out just the kind of music that is in demand i.e. what are the kinds of songs people are listening to.
