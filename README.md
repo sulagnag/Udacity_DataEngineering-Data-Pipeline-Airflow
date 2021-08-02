@@ -40,7 +40,11 @@ The main tasks are :
 5. Run Data Quality Checks for e.g to make sure required columns do not have null values
 6. End
 
-The tasks make use of user defined operators and helper functions to split the entire pipeline into easy to maintain modules
+The tasks make use of user defined operators and helper functions to split the entire pipeline into easy to maintain modules.
+1. StageToRedshiftOperator
+2. LoadFactOperator
+3. LoadDimensionOperator
+4. DataQualityOperator
 
 ## Analysis of the data
 The tables now be used to run queries for analysis for e.g.
