@@ -38,6 +38,7 @@ The main tasks are :
 3. Load log data into the staging_events table on Amazon Redshift. There is an option to add timestamped log files selectively.
 4. Use the staging tables, create the tables for users, artists, songs and time
 5. Run Data Quality Checks for e.g to make sure required columns do not have null values
+6. End
 
 The tasks make use of user defined operators and helper functions to split the entire pipeline into easy to maintain modules
 
